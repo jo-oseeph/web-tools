@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #e0e0e0;
+}
+.wrapper {
+    width: 400px;
+    background-color:#e0e0e0;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: -7px -7px 7px #fff, 13px 13px 5px rgba(94, 104, 121, 0.288);
+
+}
+.wrapper .profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fb4400;
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            /* background-color: white; */
+           /*  border-radius: 50%;
+            box-shadow: 5px 5px 10px #ccc, -5px -5px 10px #fff; */
+            margin-bottom: 20px;
+     }
+     .profile i {
+            font-size: 50px;
+           
+        } 
+.wrapper h2 {
+    font-size: 30px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.wrapper form {
+    margin: 40px 0;
+}
+form {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    
+}
+form .field {
+    width: 90%;
+    margin-bottom: 20px;
+}
+form .field .input-area {
+    position: relative;
+    display: flex;
+}
+form input {
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: #e0e0e0;
+    padding: 0 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+form input[type="text"],form input[type="password"] {
+    box-shadow: inset -3px -3px 3px #fff,
+                inset 3px 13px 5px rgba(94, 104, 121, 0.288);
+}
+form input::placeholder{
+    color: #7b6e9396;
+    font-size: 17px;
+}
+form input[type="submit"] {
+    background-color: #42B07C;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.input-area {
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding: 1px;
+   border-radius: 5px;
+        }
+.input-area i {
+  position: absolute;
+  left: 15px;
+  font-size: 18px;
+  color: #333;
+        }
+.input-area input {
+  border: none;
+  outline: none;
+  padding: 10px 10px 10px 40px;/*  Add padding to the left for the icon */
+  font-size: 16px;
+  width: 100%;
+      }
+      .pass-link {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .pass-link a {
+            color: #FF5733; /* Change color as needed */
+            text-decoration: none;
+        }
+        .signup-link  {
+           margin-bottom: 20px;
+        }
+        .signup-link a {
+            color: #007BFF;
+            text-decoration: none;
+            padding-left: 5px;
+        }
